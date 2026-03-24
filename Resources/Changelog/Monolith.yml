@@ -18791,3 +18791,10 @@ Entries:
   id: 2073
   time: '2026-03-24T12:06:49.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3548
+- author: gelliii
+  changes:
+    - type: Add
+      message: Added the Horsefly, welded together by hopes and dreams.
+  id: 2074
+  time: '2026-03-24T15:07:30.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3155
