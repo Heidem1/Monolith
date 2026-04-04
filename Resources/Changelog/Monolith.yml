@@ -19296,3 +19296,14 @@ Entries:
   id: 2128
   time: '2026-04-04T00:37:54.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3682
+- author: Redrover1760
+  changes:
+    - type: Fix
+      message: Datafarm point generation in descriptions updated.
+    - type: Fix
+      message: >-
+        Factions now use the correct datafarm entity and thus produce 200 points
+        now.
+  id: 2129
+  time: '2026-04-04T03:50:20.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3685
