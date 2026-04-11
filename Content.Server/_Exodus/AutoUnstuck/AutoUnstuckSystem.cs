@@ -28,7 +28,6 @@ public sealed class AutoUnstuckSystem : EntitySystem
     };
 
     [Dependency] private readonly SharedPhysicsSystem _physics = default!;
-    [Dependency] private readonly SharedTransformSystem _xform = default!;
     [Dependency] private readonly IRobustRandom _random = default!;
     [Dependency] private readonly IConfigurationManager _config = default!;
     [Dependency] private readonly IAdminLogManager _adminLog = default!;
@@ -129,7 +128,7 @@ public sealed class AutoUnstuckSystem : EntitySystem
             var offset = dir.Length() < 0.05f ? _random.Pick(StuckOffsets) : dir;
 
             _physics.SetCanCollide(uid, false, manager: fixtures, body: body);
-            _xform.SetCoordinates(uid, xform, xform.Coordinates.Offset(offset));
+            _transform.SetWorldPosition(uid, pos + offset);
             _physics.SetCanCollide(uid, true, manager: fixtures, body: body);
             _physics.SetLinearVelocity(uid, Vector2.Zero, manager: fixtures, body: body);
             _physics.WakeBody(uid, manager: fixtures, body: body);
