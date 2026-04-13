@@ -19757,3 +19757,14 @@ Entries:
   id: 2181
   time: '2026-04-13T15:40:17.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3732
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: Scythe range decreased from 1500 to 900.
+    - type: Tweak
+      message: Scythe firerate reduced to 0.5 bursts per second, 1.5 RPS
+    - type: Tweak
+      message: Scythe explosion reduced.
+  id: 2182
+  time: '2026-04-13T15:45:38.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3713
