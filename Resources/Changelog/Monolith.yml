@@ -20326,3 +20326,10 @@ Entries:
   id: 2240
   time: '2026-04-23T00:01:18.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3860
+- author: kasature90
+  changes:
+    - type: Add
+      message: Added bunk beds for mappers.
+  id: 2241
+  time: '2026-04-23T00:17:14.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3859
