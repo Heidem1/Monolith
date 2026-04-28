@@ -20530,3 +20530,10 @@ Entries:
   id: 2263
   time: '2026-04-28T22:04:09.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3899
+- author: kasature90
+  changes:
+    - type: Add
+      message: Retextured most grenades, and changed flashbang & smoke grenade SFX.
+  id: 2264
+  time: '2026-04-28T22:08:56.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3898
