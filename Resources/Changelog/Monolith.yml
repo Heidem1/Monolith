@@ -20537,3 +20537,12 @@ Entries:
   id: 2264
   time: '2026-04-28T22:08:56.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3898
+- author: Onezero0
+  changes:
+    - type: Tweak
+      message: The Energy Shield now has a 10% slowdown when held.
+    - type: Tweak
+      message: The TSFMC "Smilodon" laser LMG's ammo boxes are now EMP resistant.
+  id: 2265
+  time: '2026-04-28T22:11:33.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3907
