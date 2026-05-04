@@ -20764,3 +20764,12 @@ Entries:
   id: 2286
   time: '2026-05-04T06:52:01.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3796
+- author: Corrupt142
+  changes:
+    - type: Add
+      message: >-
+        A new "Experimental" Civilian starliner has appeared on the shipyard
+        console!
+  id: 2287
+  time: '2026-05-04T06:53:22.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3437
